@@ -1,0 +1,68 @@
+doctype html
+html
+	head
+		title= "bscartemplate"
+		link(rel="stylesheet", href="css/dist/bscartpl.css")
+	body
+		nav.navbar.navbar-custom.navbar-fixed-top.sticky-navbar.sticky-hide(role="navigation")
+				.container
+					.navbar-header
+						button.navbar-toggle.collapsed(type="button",data-toggle="collapse",data-target="navbar-collapse")
+							span.fa.fa-bars
+						a.navbar-brand(href="#")
+							i.fa.fa-taxi
+							| Smart taxi
+					.collapse.navbar-collapse
+						ul.nav.navbar-nav.navbar-right
+							li
+								a(href="#") Info
+							li
+								a(href="#") Support
+							li 
+								a(href="#") Tools 
+							li
+								a.link(href="#") Login
+							li
+								a.link(href="#") Register
+		header.header
+			nav.navbar.navbar-custom(role="navigation")
+				.container
+					.navbar-header
+						button.navbar-toggle.collapsed(type="button",data-toggle="collapse",data-target="navbar-collapse")
+							span.fa.fa-bars
+						a.navbar-brand(href="#")
+							i.fa.fa-taxi
+							| Smart taxi
+					.collapse.navbar-collapse
+						ul.nav.navbar-nav.navbar-right
+							li
+								a(href="#") Info
+							li
+								a(href="#") Support
+							li 
+								a(href="#") Tools 
+			.header-content
+				.container
+					.row
+						.col-md-8.col-md-offset-2
+							h1.brand-heading SMART TAXI
+							p.intro-text
+								| Smart taxi service
+							a#navigate-to.btn.btn-default(href="#")
+								i.fa.fa-angle-double-down
+		section.container.container-section.text-center.info
+			.row
+				.col-lg-8.col-lg-offset-2.info-text
+					h1 About Smart taxi
+					p Welcome to over service
+					p This is a promo text with links and text
+					p You can ( 
+						a(href="#") login
+						| /
+						a(href="#") Register
+						| ) and enjoid this service.
+		script(src="components/jquery/dist/jquery.min.js")
+		script(src="components/jquery.easing/js/jquery.easing.min.js")
+		script(src="components/jquery-waypoints/waypoints.min.js")
+		script(src="components/jquery-waypoints/shortcuts/sticky-elements/waypoints-sticky.min.js")
+		script(src="js/dist/app.js")
